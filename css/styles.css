@@ -203,6 +203,25 @@ nav h1 a {
   text-transform: uppercase;
 }
 
+@media only screen and (min-width: 0px) {
+	#restaurants-list li {
+		max-width: 100%;
+	}
+}
+
+@media only screen and (min-width: 750px) {
+	#restaurants-list li {
+		max-width: 45%
+	}
+}
+
+@media only screen and (min-width: 1010px) {
+	#restaurants-list li {
+		max-width: 300px;
+	}
+}
+
+
 /* ====================== Restaurant Details ====================== */
 .inside header {
   position: fixed;
