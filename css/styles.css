@@ -296,9 +296,12 @@ nav h1 a {
   width: 50%;
 	align-items: center;
 }
+
 #reviews-container {
   padding: 30px 40px 80px;
+	width: 50%;
 }
+
 #reviews-container h2 {
   color: #f58500;
   font-size: 24pt;
@@ -306,6 +309,7 @@ nav h1 a {
   letter-spacing: -1px;
   padding-bottom: 1pt;
 }
+
 #reviews-list {
   margin: 0;
   padding: 0;
@@ -318,7 +322,8 @@ nav h1 a {
   margin: 0 0 30px;
   overflow: hidden;
   padding: 0 20px 20px;
-  position: relative;
+	width: 80%;
+  /* position: relative; */
 	/* align-items: center; */
   /* width: inherit; */
 }
