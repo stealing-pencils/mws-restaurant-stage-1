@@ -58,9 +58,14 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   color: #aaa;
   font-size: 8pt;
   letter-spacing: 1px;
-  padding: 25px;
+  /* padding: 25px; */
   text-align: center;
   text-transform: uppercase;
+	/* width: 50%; */
+	/* position: center; */
+	padding: 2% 0% 2%;
+  width: 50%;
+	align-items: center;
 }
 /* ====================== Navigation ====================== */
 nav {
@@ -255,11 +260,11 @@ nav h1 a {
   height: 100%;
   width: 100%;
 }
-.inside #footer {
+/* .inside #footer {
   bottom: 0;
   position: absolute;
   width: 50%;
-}
+} */
 #restaurant-name {
   color: #f18200;
   font-family: Arial,sans-serif;
