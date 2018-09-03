@@ -58,13 +58,9 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   color: #aaa;
   font-size: 8pt;
   letter-spacing: 1px;
-  /* padding: 25px; */
   text-align: center;
   text-transform: uppercase;
-	/* width: 50%; */
-	/* position: center; */
 	padding: 2% 0% 2%;
-  width: 50%;
 	align-items: center;
 }
 /* ====================== Navigation ====================== */
@@ -75,7 +71,9 @@ nav {
   text-align:center;
 }
 nav h1 {
-  margin: auto;
+  margin-top: 0%;
+	padding: 2%;
+	line-height: 2;
 }
 nav h1 a {
   color: #fff;
