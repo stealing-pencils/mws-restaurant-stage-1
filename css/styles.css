@@ -62,8 +62,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   text-transform: uppercase;
 	padding: 2% 0% 2%;
 	align-items: center;
-	display: flex;
-	flex-wrap: wrap;
+	/* display: flex; */
 }
 /* ====================== Navigation ====================== */
 nav {
@@ -249,7 +248,7 @@ nav h1 a {
 }
 .inside #map-container {
   background: blue none repeat scroll 0 0;
-  height: 87%;
+  height: 88%;
   position: fixed;
   right: 0;
   top: 80px;
@@ -260,11 +259,12 @@ nav h1 a {
   height: 100%;
   width: 100%;
 }
-/* .inside #footer {
-  bottom: 0;
+
+.inside #footer {
+  width: 100%;
   position: absolute;
-  width: 50%;
-} */
+}
+
 #restaurant-name {
   color: #f18200;
   font-family: Arial,sans-serif;
