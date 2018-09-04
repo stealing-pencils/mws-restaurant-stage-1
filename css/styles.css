@@ -62,6 +62,8 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   text-transform: uppercase;
 	padding: 2% 0% 2%;
 	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
 }
 /* ====================== Navigation ====================== */
 nav {
@@ -83,12 +85,12 @@ nav h1 a {
   text-transform: uppercase;
 }
 #breadcrumb {
-    padding: 10px 40px 16px;
+    padding: 10px 20px 16px;
     list-style: none;
     background-color: #eee;
     font-size: 17px;
     margin: 0;
-    width: calc(50% - 80px);
+    max-width: 100%;
 }
 
 /* Display list items side by side */
