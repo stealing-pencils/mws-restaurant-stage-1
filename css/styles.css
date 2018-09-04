@@ -266,6 +266,11 @@ nav h1 a {
   position: absolute;
 }
 
+.reviewer-name {
+	font-weight: bolder;
+	font-size: 11pt;
+}
+
 #restaurant-name {
   color: #f18200;
   font-family: Arial,sans-serif;
@@ -306,7 +311,8 @@ nav h1 a {
 }
 
 #reviews-container {
-  /* padding: 30px 40px 80px; */
+  padding: 0;
+	margin-left: 2%;
 }
 
 #reviews-container h2 {
@@ -314,8 +320,8 @@ nav h1 a {
   font-size: 24pt;
   font-weight: 300;
   letter-spacing: -1px;
-  padding-bottom: 1pt;
-	/* margin: 5%; */
+  padding-bottom: -2pt;
+	margin: 0;
 }
 
 #reviews-list {
