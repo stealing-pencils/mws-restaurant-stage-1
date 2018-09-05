@@ -126,7 +126,7 @@ nav h1 a {
   background-color: #676a70;
   align-items: center;
 	padding: 2% 3%;
-	display: flex;
+	/* display: flex; */
 }
 .filter-options h2 {
   color: white;
