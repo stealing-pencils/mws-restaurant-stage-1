@@ -181,6 +181,7 @@ createRestaurantHTML = (restaurant) => {
 
   const more = document.createElement('button');
   more.innerHTML = 'View Details';
+  more.tabIndex = 3;
   more.onclick = function buttonLink () {
     window.location = DBHelper.urlForRestaurant(restaurant);
   }
