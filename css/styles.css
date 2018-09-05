@@ -220,7 +220,7 @@ nav h1 a {
   text-transform: uppercase;
 }
 
-@media only screen and (max-width: 749px) and (min-width: 0px) {
+@media only screen and (min-width: 0px) {
 	#restaurants-list li {
 		max-width: 100%;
 	}
@@ -228,6 +228,15 @@ nav h1 a {
 	nav h1 a {
 		font-size: 10pt;
 		letter-spacing: 7px;
+	}
+
+	ul, li {
+	    font-size: 18pt;
+	}
+
+	#breadcrumb {
+		padding: 10px 30px 16px;
+		width: calc(50% - 60px);
 	}
 }
 
