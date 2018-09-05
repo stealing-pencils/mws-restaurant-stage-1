@@ -122,11 +122,12 @@ nav h1 a {
 }
 /* ====================== Restaurant Filtering ====================== */
 .filter-options {
-  width: 100%;
+  /* width: 100%; */
   height: 100%;
   background-color: #676a70;
   align-items: center;
 	padding: 2% 3%;
+	display: flex;
 }
 .filter-options h2 {
   color: white;
@@ -232,14 +233,11 @@ nav h1 a {
 
 @media only screen and (min-width: 750px) {
 	#restaurants-list li {
-		max-width: 45%
-	}
-
-
+		max-width: 45%;
 	}
 }
 
-@media only screen and (min-width: 1010px) {
+@media only screen and (min-width: 1024px) {
 	#restaurants-list li {
 		max-width: 300px;
 	}
