@@ -1,4 +1,4 @@
-let staticCacheName = 'restaurant-static-v1';
+let staticCacheName = 'restaurant-static-v3';
 
 // importScripts('/cache-polyfill.js');
 
@@ -29,12 +29,29 @@ self.addEventListener('install', function(e) {
  );
 });
 
+self.addEventListener('activate', function(event) {
+  event.waitUntil(
+    caches.keys().then(function(cacheNames) {
+      return Promise.all(
+        cacheNames.filter(function(cacheName) {
+          return cacheName.startsWith('mws') &&
+                 cacheName != staticCacheName;
+                 console.log('got the caches');
+        }).map(function(cacheName) {
+          return cache.delete(cacheName);
+          console.log('deleted cache');
+        })
+      );
+    })
+  );
+})
+
 
 self.addEventListener('fetch', function(e) {
   e.respondWith(
     caches.match(e.request).then(function(response) {
       if (response) return response;
-      return fetch(event.request);
+      return fetch(e.request);
     })
   )
 })
