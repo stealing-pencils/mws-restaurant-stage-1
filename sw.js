@@ -29,14 +29,12 @@ self.addEventListener('install', function(e) {
  );
 });
 
-// self.addEventListener('activate', function(e){
-//   e.waitUntil(caches.keys().then(function(cacheNames){
-//     return Promise.all(cacheNames.filter(function(cacheName){
-//       return cacheName.startsWith('restaurant-') && cacheName != staticCacheName;
-//       }).map(function(cacheName){
-//         return cache.delete(cacheName);
-//          console.log('check on cache');
-//         })
-//     );
-//   }));
-// });
+
+self.addEventListener('fetch', function(e) {
+  e.respondWith(
+    caches.match(e.request).then(function(response) {
+      if (response) return response;
+      return fetch(event.request);
+    })
+  )
+})
