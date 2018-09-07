@@ -18,6 +18,6 @@ In a terminal, check the version of Python you have: `python -V`. If you have Py
 
 ## Dependencies:
 - Udacity 'The Benefits of Offline First' and 'Introducing The Service Worker' course materials
-- [Matthew Cranford Walkthrough] (https://matthewcranford.com/restaurant-reviews-app-walkthrough-part-4-service-workers/)
-- [Doug Brown Webinar Walkthrough] (https://www.youtube.com/watch?v=92dtrNU1GQc)
+- Matthew Cranford Walkthrough (https://matthewcranford.com/restaurant-reviews-app-walkthrough-part-4-service-workers/)
+- Doug Brown Webinar Walkthrough (https://www.youtube.com/watch?v=92dtrNU1GQc)
 - StackOverflow for general queries
