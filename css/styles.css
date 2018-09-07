@@ -67,7 +67,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 nav {
   width: 100%;
   height: 80px;
-  background-color: #1c1a16;
+  background-color: #302c25;
   text-align:center;
 }
 nav h1 {
@@ -208,7 +208,7 @@ nav h1 a {
   font-size: 11pt;
 }
 #restaurants-list li button {
-  background-color: #3f3821;
+  background-color: #302c25;
   border-bottom: 3px solid #eee;
   color: #fff;
   display: inline-block;
@@ -299,7 +299,7 @@ nav h1 a {
 }
 
 #restaurant-name {
-  color: #1c1a16;
+  color: #302c25;
   font-family: Arial,sans-serif;
   font-size: 20pt;
   font-weight: 200;
@@ -316,7 +316,7 @@ nav h1 a {
   margin: 10px 0px;
 }
 #restaurant-cuisine {
-  background-color: #1c1a16;
+  background-color: #302c25;
   color: #ddd;
   font-size: 12pt;
   font-weight: 300;
